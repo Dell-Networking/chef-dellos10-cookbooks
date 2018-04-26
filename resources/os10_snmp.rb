@@ -137,7 +137,7 @@ action :set do
           hash = execute_config_command(cmd)
         end
       end
-      if property_is_set?(:community)
+      if property_is_set?(:host)
         new_resource.host  new_resource.host.sort_by{|item| item.keys}
         converge_if_changed :host do
           cmd = []
