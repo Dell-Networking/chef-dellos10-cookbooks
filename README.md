@@ -12,7 +12,7 @@
 5. [Requirements](#requirements)
    * [Chef Requirements](#chef-requirements)
 6. [Resource Reference](#resource-reference)
-   * [Resource Details ](#resource-detail)
+   * [Resource Details](#resource-details)
 
 
 
