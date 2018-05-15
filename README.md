@@ -12,8 +12,7 @@
 5. [Requirements](#requirements)
    * [Chef Requirements](#chef-requirements)
 6. [Resource Reference](#resource-reference)
-   * [Resource Catalog ](#resource-by-name)
-7. [Learning Resources](#learning-resources)
+   * [Resource Details ](#resource-detail)
 
 
 
