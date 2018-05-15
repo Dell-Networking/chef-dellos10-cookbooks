@@ -12,7 +12,7 @@
 5. [Requirements](#requirements)
    * [Chef Requirements](#chef-requirements)
 6. [Resource Reference](#resource-reference)
-   * [Resource Catalog (by Name)](#resource-by-name)
+   * [Resource Catalog ](#resource-by-name)
 7. [Learning Resources](#learning-resources)
 
 
@@ -20,8 +20,7 @@
 ## Overview
 
 The `dellos10-cookbook` allows a network administrator to manage Dell OS10 switch using Chef. This cookbook bundles a set of Chef Resources, Sample Recipes and installation Tools for effective network management.  The resources and capabilities provided by this cookbook will grow with contributions from Dell, Chef Software Inc., and the open source community.
-
-Please refer to the [Provider Support Across Platforms](#provider-platform-support) section for details on currently supported hardware and software. The [Chef Requirements](#chef-requirements) section also provides details on compatible Chef client.
+The [Chef Requirements](#chef-requirements) section provides details on compatible Chef client.
 
 This GitHub repository contains the latest version of the dellos10-cookbook source code. Supported versions of the dellos10-cookbook are available at Chef Supermarket. Please refer to [SUPPORT] for additional details.
 
@@ -30,8 +29,6 @@ Contributions to this cookbook are welcome. Guidelines on contributions to the c
 ## Cookbook Description
 
 This cookbook enables management of supported Dell OS10 using Chef. This cookbook enhances the Chef DSL by introducing new Chef Resources capable of managing network elements.
-
-The set of supported network element platforms is continuously expanding. Please refer to the [Provider Support Across Platforms](#provider-platform-support) section for an overview of currently supported platforms.
 
 ## Setup
 
@@ -62,16 +59,6 @@ See the recipes directory for example usage of dellos10 providers and resources.
 ### Chef Requirements
 
 Dell OS10 Chef implementation requires Chef version 12.6.0
-
-##### Provider Support Across Platforms
-
-A note about support for specific platform models:
-
-**Platform Models**
-
-Platform | Description | Environments
-:--|:--|:--
-**Dell-OS10** | Support include OS10| CLI
 
 ## Resource Reference
 * [`dellos10_bgp`](#type-dellos10_bgp)
