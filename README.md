@@ -1,7 +1,5 @@
 # dellos10-cookbook
 
-[![Cookbook Release]](https://supermarket.chef.io/cookbooks/dellos10-cookbook)
-
 --
 ## Table of Contents
 
@@ -548,4 +546,6 @@ end
 **Actions**
 
 - `:set` - updates the snmp configuration. It is default action, so optional to provide in recipe.
+
+© 2018 Dell Inc. or its subsidiaries. All Rights Reserved.
 
