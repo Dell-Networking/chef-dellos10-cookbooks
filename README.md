@@ -1,6 +1,5 @@
 # dellos10-cookbook
 
-
 [![Cookbook Release]](https://supermarket.chef.io/cookbooks/dellos10-cookbook)
 
 --
