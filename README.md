@@ -57,7 +57,7 @@ See the recipes directory for example usage of dellos10 providers and resources.
 
 ### Chef Requirements
 
-Dell OS10 Chef implementation requires Chef version 12.6.0
+Dell OS10 Chef implementation requires Chef version 12.6.0 and chef-client version 13.8.5
 
 ## Resource Reference
 * [`dellos10_bgp`](#type-dellos10_bgp)
@@ -548,4 +548,6 @@ end
 **Actions**
 
 - `:set` - updates the snmp configuration. It is default action, so optional to provide in recipe.
+
+© 2018 Dell Inc. or its subsidiaries. All Rights Reserved.
 
