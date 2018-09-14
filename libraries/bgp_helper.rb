@@ -455,4 +455,6 @@ module BgpHelper
     end
   end
 end
+Chef::Recipe.send(:include, BgpHelper)
 Chef::Resource.send(:include, BgpHelper)
+Chef::Provider.send(:include, BgpHelper)
